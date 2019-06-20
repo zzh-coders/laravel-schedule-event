@@ -2,6 +2,12 @@
 ## 关于
 这个包主要是监控定时任务命令开启withoutOverlapping后，异常退出命令导致锁不能及时释放的问题
 
+如果使用composer引入，那么就直接写就可以
+```$xslt
+composer require zehua/laravel-schedule-event:dev-master
+```
+
+# 单独github下载使用请使用下面的方法操作
 composer 依赖 或者 使用phpredis
 predis/predis
 
