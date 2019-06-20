@@ -4,7 +4,7 @@
 
 如果使用composer引入，那么就直接写就可以
 ```$xslt
-composer require zehua/laravel-schedule-event
+composer require zehua/laravel-schedule-event:dev-master
 ```
 
 # 单独github下载使用请使用下面的方法操作
