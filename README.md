@@ -24,17 +24,3 @@ predis/predis
     ],
     ...
 ```
-composer.json里面
-```$xslt
-...
-"autoload": {
-    "classmap": [
-      "database/seeds",
-      "database/factories"
-    ],
-    "psr-4": {
-      "App\\": "app/",
-      "Pkg\\LaravelScheduleEvent\\": "packages/laravel-schedule-event/src"
-    }
-  },
-```
